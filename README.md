@@ -1,2 +1,2 @@
 # coursera_web
-coursera web tasks
+Repository contains tasks from web course.
