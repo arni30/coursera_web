@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(29, 178, 247);
+  font-family: 'Girassol', cursive;
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+  border: 0;
+}
+
+#nav-header {
+  background-color: rgb(25, 216, 152);
+  border-radius: 0;
+  border: 0;
+}
+
+#nav-brand {
+  color: coral;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px gray;
+  padding-top: 0;
+}
+
+.navbar-toggle {
+  padding: 5px 3px;
+  padding-bottom: 0px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: cornflowerblue;
+}
+
+.navbar-toggle .icon-bar {
+  width: 30px;
+  height: 3px;
+}
+.navbar-default .navbar-toggle {
+  border: 1px solid coral;
+}
+.navbar-toggle span {
+  border: 2px solid coral;
+  margin-bottom: 5px;
+}
+#nav-list li:hover {
+  background-color: cornflowerblue;
+}
+.navbar-nav {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-size: 1.2em;
+  color: coral;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: rgb(25, 216, 152);
+}
+#nav-list {
+  text-align: center;
+}
+
+#ch {
+  border: 1px solid coral;
+}
+
+#bf {
+  border: 1px solid coral;
+  border-top: 0;
+  border-bottom: 1px solid coral;
+}
+#sh {
+  border: 1px solid coral;
+  border-top: 0;
+}
+
+#main-content {
+  margin-right: .5%;
+  margin-left: .5%;
+}
+
+#main-content > div{
+  background-color: darkkhaki;
+  border: 1px solid coral;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.food{
+  text-align: center;
+  margin: 2px 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+#menu {
+  color: black;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  margin: 20px;
+  font-style: italic;
+}
+
+p {
+  text-align: left;
+  margin: 5px;
+  margin-bottom: 5px;
+}
+
+
+@media (max-width: 767px) {
+  #main-content {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
